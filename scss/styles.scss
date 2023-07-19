@@ -1,0 +1,23 @@
+body{
+    background-color: #000000;
+}
+
+.lobby-title__2{
+    span{
+        transition: .3s linear; 
+        &:hover{
+            text-shadow: 0 0 10px #000000d0, 0 0 20px #ffffffd0, 0 0 40px #ffffffd0;
+            :nth-child(1){
+                margin-right: 10px;
+                &:after{
+                    content:"NTELIGENCIA";
+                }
+            }
+            :nth-child(2){
+                &:after{
+                    content:"RTIFICIAL";
+                }
+            }
+         }
+    }
+}
