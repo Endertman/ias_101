@@ -1,3 +1,19 @@
+@font-face {
+  font-family: "gobold";
+  src: url("..//fonts/Gobold Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "gobold extra";
+  src: url("..//fonts/Gobold Extra1.otf") format("opentype");
+}
+@font-face {
+  font-family: "gobold hollow";
+  src: url("..//fonts/Gobold Hollow.otf") format("opentype");
+}
+@font-face {
+  font-family: "gobold light";
+  src: url("..//fonts/Gobold Light.otf") format("opentype");
+}
 body {
   background-color: #000000;
 }
