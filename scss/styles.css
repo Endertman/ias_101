@@ -1,3 +1,19 @@
+@font-face {
+  font-family: "gobold";
+  src: url("..//fonts/Gobold Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "gobold extra";
+  src: url("..//fonts/Gobold Extra1.otf") format("opentype");
+}
+@font-face {
+  font-family: "gobold hollow";
+  src: url("..//fonts/Gobold Hollow.otf") format("opentype");
+}
+@font-face {
+  font-family: "gobold light";
+  src: url("..//fonts/Gobold Light.otf") format("opentype");
+}
 body {
   background-color: #000000;
 }
@@ -112,42 +128,38 @@ header {
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.8156862745), 0 0 20px rgba(255, 255, 255, 0.8156862745), 0 0 40px rgba(255, 255, 255, 0.8156862745);
   }
 }
-.lobby-title__2 span:hover {
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8156862745), 0 0 20px rgba(255, 255, 255, 0.8156862745), 0 0 40px rgba(255, 255, 255, 0.8156862745);
-}
-.lobby-title__2 span:hover :nth-child(1) {
-  margin-right: 10px;
-}
-@media (min-width: 900px) {
-  .lobby-title__2 span:hover :nth-child(1) {
-    margin-right: 10px;
-  }
-}
 @media (max-width: 900px) {
-  .lobby-title__2 span:hover :nth-child(1) {
+  .lobby-title__2 span:nth-child(1) {
     margin-right: 4px;
   }
-}
-.lobby-title__2 span:hover :nth-child(1):after {
-  content: "NTELIGENCIA";
-}
-@media (max-width: 900px) {
-  .lobby-title__2 span:hover :nth-child(1):after {
+  .lobby-title__2 span:nth-child(1):after {
     content: "nteligencia";
   }
 }
 @media (max-width: 900px) {
-  .lobby-title__2 span:hover :nth-child(2) {
+  .lobby-title__2 span:nth-child(2) {
     margin-left: 4px;
   }
-}
-.lobby-title__2 span:hover :nth-child(2):after {
-  content: "RTIFICIAL";
-}
-@media (max-width: 900px) {
-  .lobby-title__2 span:hover :nth-child(2):after {
+  .lobby-title__2 span:nth-child(2):after {
     content: "rtificial";
   }
+}
+.lobby-title__2:hover span {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8156862745), 0 0 20px rgba(255, 255, 255, 0.8156862745), 0 0 40px rgba(255, 255, 255, 0.8156862745);
+}
+.lobby-title__2:hover span:nth-child(1) {
+  margin-right: 10px;
+}
+.lobby-title__2:hover span:nth-child(1):after {
+  content: "NTELIGENCIA";
+}
+@media (min-width: 900px) {
+  .lobby-title__2:hover span:nth-child(1) {
+    margin-right: 10px;
+  }
+}
+.lobby-title__2:hover span:nth-child(2):after {
+  content: "RTIFICIAL";
 }
 
 .intro {

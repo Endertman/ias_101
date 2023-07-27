@@ -1,3 +1,23 @@
+@font-face {
+    font-family: "gobold";
+    src: url("..//fonts/Gobold\ Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "gobold extra";
+    src: url("..//fonts/Gobold\ Extra1.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "gobold hollow";
+    src: url("..//fonts/Gobold\ Hollow.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "gobold light";
+    src: url("..//fonts/Gobold\ Light.otf") format("opentype");
+}
+
 body {
     background-color: #000000;
 }
@@ -117,36 +137,41 @@ header {
                   transition: .3s linear;
                   text-shadow: 0 0 10px #000000d0, 0 0 20px #ffffffd0, 0 0 40px #ffffffd0;
             }
-        &:hover {
-            text-shadow: 0 0 10px #000000d0, 0 0 20px #ffffffd0, 0 0 40px #ffffffd0;
-            :nth-child(1) {
-                margin-right: 10px;
-                    @media (min-width: 900px) {
-                        margin-right: 10px;
-                    }
-                    @media (max-width: 900px) {
-                        margin-right: 4px; 
-                    }
-                &:after {
-                    content:"NTELIGENCIA";
-                    @media (max-width: 900px) {
+            &:nth-child(1){
+                @media (max-width: 900px){
+                    margin-right: 4px;
+                    &:after{
                         content: "nteligencia";
                     }
                 }
             }
-            :nth-child(2) {
-                @media (max-width: 900px) {
-                    margin-left: 4px; 
-                }
-                &:after {
-                    content:"RTIFICIAL";
-                        @media (max-width: 900px) {
-                            content: "rtificial";
-                        }
-                    
+            &:nth-child(2){
+                @media (max-width: 900px){
+                    margin-left: 4px;
+                    &:after{
+                        content: "rtificial";
+                    }
                 }
             }
-         }
+    }
+    &:hover{
+        span{
+            text-shadow: 0 0 10px #000000d0, 0 0 20px #ffffffd0, 0 0 40px #ffffffd0;
+                &:nth-child(1) {
+                    margin-right: 10px;
+                        &:after {
+                            content:"NTELIGENCIA";
+                        }
+                    @media (min-width: 900px){
+                        margin-right: 10px;
+                    }
+                }
+                &:nth-child(2) {
+                        &:after {
+                            content:"RTIFICIAL";
+                        }
+                }
+        }
     }
 }
 
