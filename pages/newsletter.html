@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport content="width=device-width, initial-scale=1.0>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>IA´s 101</title>
-    <link rel="icon" href="../media/icon.ico" type="image/x-icon">
-    <script src="https://kit.fontawesome.com/19bbfd211d.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../css/bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.css" as="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport content="width=device-width, initial-scale=1.0>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IA´s 101</title>
+  <meta name="description" content="Aprende sobre Inteligencia Artificial y mantente al día con las últimas noticias y avances en el campo de la IA.">
+  <meta name="keywords" content="inteligencia artificial, IA, ia, noticias de IA, aprendizaje automático, machine learning, algoritmos inteligentes, que es, que es IA, ai, AI">
+  <meta name="author" content="Endert Guerero">
+  <link rel="icon" href="./media/icon.ico" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/19bbfd211d.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../scss/styles.css" as="stylesheet">
 </head>
 <body>
   <header>
@@ -68,32 +72,32 @@
       </div>
     </nav>
   </header>
-  <main id="social" class="py-5">
+  <main id="social" class="">
     <div id="articles" class=" align-items-center justify-content-center">
-      <div class="container-fluid py-5 my-5">
+      <div class="container-fluid">
         <div class="row">
-          <div class="col-md-6 order-md-1 d-flex container-fluid">
+          <div class="col-md-6 order-md-1 d-flex container-fluid p-5">
             <iframe class="embed-responsive-item d-none d-sm-block" src="https://www.xataka.com/tag/inteligencia-artificial"></iframe>
           </div>
           <div class="col-md-6 order-md-2 d-flex flex-column align-items-center justify-content-center">
-            <div class="d-flex flex-column position-relative">
-              <h2 class="articles-title">
+            <div class="position-relative">
+              <h2 class="articles-title pt-3">
                 <span class="position-absolute articles-title__sub1">newsletter</span> suscríbete
               </h2>
             </div>
             <div class="mb-3 pt-5 mt-3">
               <form class="row g-3">
                 <div class="col">
-                  <label for="exampleFormControlInput1" class="form-label newsletter-text">Nombre</label>
+                  <label for="exampleFormControlInput1" class="form-label newsletter__form-label">Nombre</label>
                   <input class="form-control" placeholder="(Opcional)">
                 </div>
                 <div class="col">
-                  <label for="exampleFormControlInput1" class="form-label newsletter-text">Email</label>
+                  <label for="exampleFormControlInput1" class="form-label newsletter__form-label">Email</label>
                   <input type="email" class="form-control"  placeholder="nombre@email.com">
                 </div>
-                <button class="glow-on-hover mb-4 newsletter-text" type="send">Enviar</button>         
+                <button class="glow-on-hover mb-4 newsletter-text" type="submit">Enviar</button>         
               </form>
-              <p class="newsletter-text px-5 text-center">Suscríbete a nuestra newsletter y recibe las últimas noticias, avances y tendencias en el campo de la Inteligencia Artificial directamente en tu bandeja de entrada. No te pierdas ninguna novedad y sé el primero en conocer los emocionantes desarrollos en el mundo de la IA. Únete a nuestra comunidad de entusiastas de la IA y prepárate para descubrir un futuro lleno de innovación.</p>         
+              <p class="newsletter-text px-2 text-center">Suscríbete a nuestra newsletter y recibe las últimas noticias, avances y tendencias en el campo de la Inteligencia Artificial directamente en tu bandeja de entrada. No te pierdas ninguna novedad y sé el primero en conocer los emocionantes desarrollos en el mundo de la IA. Únete a nuestra comunidad de entusiastas de la IA y prepárate para descubrir un futuro lleno de innovación.</p>         
             </div>
           </div>
         </div>
@@ -210,6 +214,5 @@
     <div class="footer__gradient-19 w-100"></div>
     <div class="footer__gradient-20 w-100"></div>
   </div>
-  <script src="../js/bootstrap.bundle.js"></script>
 </body>
 </html>

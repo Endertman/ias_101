@@ -87,7 +87,7 @@ header {
     span {
         color: #ffffff;
             @media (min-width: 900px) {
-                    font-size: 10vh;
+                font-size: 10vh;
             }
     }    
 }
@@ -237,10 +237,17 @@ header {
         }
 }
 
+//extra
+
+#img-attention {
+    margin-top: -50px;
+    top: 190vh;
+}
+
 // main
 
 #articles {
-    padding: 25px;
+    padding: 10px;
 }
 
 .articles-title {
@@ -466,6 +473,7 @@ $gradient-color: #272732;
 // button style start newslleter, contact
 
 .glow-on-hover {
+    font-family: "gobold light";
     width: 100%;
     border: none;
     outline: none;
@@ -522,21 +530,143 @@ $gradient-color: #272732;
 
 .articles-title__sub1 {
     font-family: "gobold hollow";
-    font-size: 8rem;
+    font-size: 145%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #ffffff25;
         @media (max-width: 800px) {
-            font-size: 4.2rem;
+            font-size: 118%;
         }
-}   
+}
+
+.newsletter__form-label{                    
+    font-family: "gobold light";
+    color:#fff;
+}
 
 //iframe start
 
 iframe {
     width: 100%;
 }
+
 //iframe end
 
 //newsletter end
+
+//contact start
+
+#social{
+    .contact-title {
+        font-family: "gobold";
+        color: #fff;
+        font-size: 125%;
+    }
+    .contact-title__sub {
+        font-family: "gobold hollow";
+        font-size: 350%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #ffffff25;
+    }
+    a{
+        img{
+            height: auto;
+        }
+    }
+}
+
+//contact end
+
+//news start
+
+.news {
+    background-image: url(../media/fondo_1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    padding: 50px 0;
+        .card {
+            height: 100%;
+        }
+}
+
+
+#news__subscribe {
+    p {
+        font-family: gobold light;
+        color: #ffffff;
+        font-size: 16px;
+            @media (min-width: 900px) {
+                font-size: 22px;   
+            }
+    }
+}
+
+.card-body {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.text{
+    position: relative;
+    z-index: 1;
+    color: white,
+}
+
+.new_1 {
+    background-image: url(https://i.blogs.es/de6f02/chatgpt-stack/1024_2000.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+.new_2 {
+    background-image: url(https://i.blogs.es/cf047d/wormgpt4/1024_2000.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+.new_3 {
+    background-image: url(https://i.blogs.es/66e7d1/google-bard/1024_2000.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+.new_4 {
+    background-image: url(https://i.blogs.es/6586d0/stable-diffusion/1024_2000.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+.new_5 {
+    background-image: url(https://i.blogs.es/bc5b98/keith-thomas/1024_2000.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+.new_6 {
+    background-image: url(https://i.blogs.es/db9956/home/1024_2000.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+.new_7 {
+    background-image: url(https://i.blogs.es/00cc80/sam2/1024_2000.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+.new_8 {
+    background-image: url(https://i.blogs.es/707663/netflix/1024_2000.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
