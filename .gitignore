@@ -1,0 +1,5 @@
+# Ignorar la carpeta "css/"
+css/
+
+# Ignorar la carpeta "js/"
+js/
